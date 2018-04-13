@@ -1,8 +1,12 @@
+import java.util.*;
+
 
 public class Main {
     public static void main(String[] args) {
-        String message = "Hello World!";
-        System.out.println(message);
+        Scanner input = new Scanner(System.in);
+        String question = "Hello! What is your name?";
+        System.out.println(question);
+        var questionInput = input.nextLine();
     }
 
 }
